@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "Questions.h"
 
-
+//Classlist Program
 student **create_class_list(char *filename, int *sizePtr){
 	
 	student **class_list; //initializes list of pointers to student pointers (point to student vars)
