@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include "Questions.h"
 
+//Where val1, pos1 and val2, pos2 represent two sparse vectors of integers, stored efficiently. k1 is the 
+//number of non-zero elements of vector 1 and k2 is the number of non-zero elements of vector 2. 
+//Function addEff() has to add the two vectors and store the result in efficient representation as well, using 
+//val3, pos3
 
 void addEff(int val1[], int val2[], int val3[], int pos1[], int pos2[], int pos3[], int k1, int k2){
 	//go through pos[]1 and pos2[] and see if they are equal
